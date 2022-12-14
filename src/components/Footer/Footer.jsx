@@ -4,7 +4,6 @@ import logo from "../../assets/images/res-logo.png";
 
 import "../Footer/footer.css";
 
-import { Link} from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -65,22 +64,16 @@ const Footer = () => {
             <div className="social__links d-flex align-items-center gap-4 justify-content-end">
               <p className="m-0"><b> Follow:</b> </p>
                <span>
-                <Link to={{ pathname: "https://www.github.com/" }} target="_blank">
-                  <i class="ri-github-line"></i>
-                </Link>
+               <a href="https://github.com/ISNTIC-2021/" target="_blank" rel="noreferrer"> <i class="ri-github-line"></i></a>
+                  
               </span>
               <span>
-                {" "}
-                <Link to={{ pathname: "https://www.linkedin.com/" }} target="_blank">
-                  <i class="ri-linkedin-line"></i>
-                </Link>{" "}
+              <a href="http://www.linkedin.com/in/said-boussif" target="_blank" rel="noreferrer"> <i class="ri-linkedin-line"></i></a>
+
+                  
               </span>
               <span>
-                {" "}
-                <Link to={{ pathname: "https://www.facebook.com/" }} target="_blank" >
-              
-                  <i class="ri-facebook-line"></i>
-                </Link>{" "}
+                <a href="https://www.facebook.com/profile.php?id=100010889835226" target="_blank" rel="noreferrer"> <i class="ri-facebook-line"></i></a>
               </span>
             </div>
           </Col>
